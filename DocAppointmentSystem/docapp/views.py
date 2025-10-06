@@ -23,3 +23,20 @@ def contact(request):
         return render(request, 'contact.html', {'message-name': message_name})
     else:
         return render(request, 'contact.html', {})
+    
+def about(request):
+    return render(request, 'about.html', {})
+
+def services(request):
+    return render(request, 'services.html', {})
+
+def doctors(request):
+    return render(request, 'doctors.html', {})
+def blog(request):
+    return render(request, 'blog.html', {})
+def appointment(request):
+    return render(request, 'appointment.html', {})
+def single(request):
+    return render(request, 'single.html', {})
+def elements(request):
+    return render(request, 'elements.html', {})
